@@ -1,0 +1,45 @@
+// Variables Bootstrap 4
+a {
+    color: #e31138;
+}
+a:hover {
+    color: #ce152f;
+}
+button:focus {
+    outline: none;
+}
+.btn:focus, .btn.focus {
+    outline: none;
+    box-shadow: none;
+}
+.form-control:focus {
+    border-color: #2b2a28;
+    box-shadow: none;
+}
+.form-control {
+    border-radius: 0;
+}
+:focus {
+    outline: none;
+}
+.sliders{
+    max-width: 1920px;
+}
+.slider{
+    width: 100%;
+}
+.slider img{
+    max-width: 100%;
+}
+.slick-slide img {
+    max-width: 100%;
+    margin: auto;
+}
+@media (min-width: 1700px){
+    .container {
+        max-width: 1530px;
+    }
+}
+
+
+
